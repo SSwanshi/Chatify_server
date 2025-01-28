@@ -9,7 +9,8 @@ import Route from './routes/route.js'
 const app = express();
 
 app.use(cors({
-    origin:'https://chatify-one-rho.vercel.app'
+    origin:'https://chatify-one-rho.vercel.app',
+    credentials: true
 }));
 
 app.use(bodyParser.json({extended:true}));
