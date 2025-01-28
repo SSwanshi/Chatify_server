@@ -1,7 +1,7 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url = 'http://localhost:8000';
+const url = 'https://chatify-server-nn6o.onrender.com';
 
 let gfs, gridFsBucket;
 const conn = mongoose.connection;
