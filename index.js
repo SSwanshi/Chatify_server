@@ -9,7 +9,7 @@ import Route from './routes/route.js'
 const app = express();
 
 app.use(cors({
-    origin: "http://chatify.swanshi.me",
+    origin: "https://chatify.swanshi.me",
     credentials: true
 }));
 
